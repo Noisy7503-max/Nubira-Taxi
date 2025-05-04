@@ -7,7 +7,7 @@ from aiogram.filters import BaseFilter
 
 router = Router()
 
-drivers_ids = [2117761461, 2090971605]
+drivers_ids = [123456, 654321]
 
 class IsDriver(BaseFilter):
     async def __call__(self, obj: TelegramObject) -> bool:
