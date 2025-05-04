@@ -8,7 +8,7 @@ from aiogram.types import TelegramObject
 from aiogram.filters import BaseFilter, Command
 import aiosqlite, asyncio
 
-admin_ids = [2090971605, 7770756420]
+admin_ids = [123456, 654321]
 
 async def get_clients_count():
     connect = await aiosqlite.connect(r'C:\PYTHONP\NubiraTaxi\database\database.db')
